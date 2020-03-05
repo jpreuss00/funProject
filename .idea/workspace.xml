@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1506516f-ab06-4ac6-b33a-83109571207c" name="Default Changelist" comment="" />
+    <list default="true" id="1506516f-ab06-4ac6-b33a-83109571207c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/funProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +19,25 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,8 +57,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,5 +81,39 @@
       <updated>1583411852471</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="-1055" key="#Project_Structure" timestamp="1583412875766">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="254" y="-1055" key="#Project_Structure/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583412875766" />
+    <state x="118" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583413347703">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="118" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413347703" />
+    <state x="374" y="-910" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583414618116">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="374" y="-910" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583414618116" />
+    <state x="504" y="-813" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583412515240">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="504" y="-813" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583412515240" />
+    <state x="142" y="-1139" key="SettingsEditor" timestamp="1583413411575">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="142" y="-1139" key="SettingsEditor/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413411575" />
+    <state x="333" y="-888" key="com.intellij.ide.util.TipDialog" timestamp="1583413561198">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="333" y="-888" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413561198" />
+    <state x="319" y="-374" key="run.anything.popup" timestamp="1583413420145">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="319" y="-374" key="run.anything.popup/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413420145" />
+    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup" timestamp="1583413483058">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413483058" />
   </component>
 </project>
