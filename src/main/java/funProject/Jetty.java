@@ -1,7 +1,9 @@
 package funProject;
 
 import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.time.LocalDateTime;
 
 import javax.servlet.http.HttpServletRequest;
@@ -16,9 +18,13 @@ import org.json.JSONObject;
 
 public class Jetty {
 
+    private final HashPassword hashPassword;
+    private final ReadDatabase readDatabase;
     private final Connection connection;
 
-    public Jetty(Connection connection){
+    public Jetty(HashPassword hashPassword, ReadDatabase readDatabase, Connection connection){
+        this.hashPassword = hashPassword;
+        this.readDatabase = readDatabase;
         this.connection = connection;
     }
 
@@ -26,6 +32,8 @@ public class Jetty {
 
         final ContextHandler root = new ContextHandler();
         final ContextHandler health = new ContextHandler("/health");
+        final ContextHandler register = new ContextHandler("/register");
+        final ContextHandler login = new ContextHandler("/login");
 
         root.setHandler(new AbstractHandler() {
             @Override
@@ -47,7 +55,52 @@ public class Jetty {
             }
         });
 
-        ContextHandlerCollection contexts = new ContextHandlerCollection(root, health);
+        register.setHandler(new AbstractHandler() {
+            @Override
+            public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response) throws IOException {
+                String username = "";
+                String password = "";
+                if(request.getParameter("password") != null){
+                    password = request.getParameter("password");
+                }
+                if(request.getParameter("username") != null){
+                    username = request.getParameter("username");
+                }
+                InsertCredentials insertCredentials = new InsertCredentials(connection, hashPassword);
+                try {
+                    insertCredentials.insertInDB(username, password);
+                } catch (NoSuchAlgorithmException | SQLException e) {
+                    e.printStackTrace();
+                }
+                baseRequest.setHandled(true);
+                System.out.println("register Page is running...");
+            }
+        });
+
+        login.setHandler(new AbstractHandler() {
+            @Override
+            public void handle(String target, Request baseRequest, HttpServletRequest request, HttpServletResponse response) throws IOException {
+                String password = "";
+                String username = "";
+                if(request.getParameter("password") != null){
+                    password = request.getParameter("password");
+                }
+                System.out.println(username);
+                if(request.getParameter("username") != null){
+                    username = request.getParameter("username");
+                }
+                Login login = new Login(hashPassword, readDatabase);
+                try {
+                    response.getWriter().println(login.validateCredentials(password, username));
+                } catch (NoSuchAlgorithmException | SQLException e) {
+                    e.printStackTrace();
+                }
+                baseRequest.setHandled(true);
+                System.out.println("register Page is running...");
+            }
+        });
+
+        ContextHandlerCollection contexts = new ContextHandlerCollection(root, health, register, login);
         final String port = System.getenv("PORT");
         System.out.println("PORT: " + port);
         final Server server = new Server(Integer.parseInt(port));

@@ -4,7 +4,7 @@ echo -e "\n\033[35;1;4mStarting slave work...\033[0m"
 echo -e "\n\033[34;1;4mGradle build...\033[0m"
 gradle build
 echo -e "\n\033[34;1;4mDocker build...\033[0m\n"
-docker build -t jpreuss00/funProject .
+docker build -t jpreuss00/funproject .
 echo -e "\n\033[34;1;4mHeroku Login...\033[0m\n"
 #!heroku login
 echo -e "\n\033[34;1;4mHeroku Container Login...\033[0m\n"

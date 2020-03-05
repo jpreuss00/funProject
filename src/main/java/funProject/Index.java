@@ -6,6 +6,9 @@ public class Index {
 
     public static void main(String[] args) throws Exception {
 
+        String testPW = "Test";
+        String testUser = "Joshua";
+
         String database_url = System.getenv("DATABASE_URL");
         String host = "";
         String user = "";
@@ -32,9 +35,15 @@ public class Index {
 
         PostgreSQL postgreSQL = new PostgreSQL(host, user, password, database);
         Connection connection = postgreSQL.connect();
-        Jetty jetty = new Jetty(connection);
+
+        ReadDatabase readDatabase = new ReadDatabase(connection);
+        HashPassword hashPassword = new HashPassword();
+        InsertCredentials insertCredentials = new InsertCredentials(connection, hashPassword);
+        Login login = new Login(hashPassword, readDatabase);
+        System.out.println("Test with Password: '" + testPW + "' and User: '" + testUser + "'");
+        System.out.println("Password right?: " + login.validateCredentials(testPW,testUser));
+
+        Jetty jetty = new Jetty(hashPassword,readDatabase, connection);
         jetty.startJetty();
-
     }
-
 }
