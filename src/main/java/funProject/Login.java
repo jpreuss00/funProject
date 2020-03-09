@@ -2,6 +2,7 @@ package funProject;
 
 import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;
+import java.util.Arrays;
 
 public class Login {
 
@@ -14,10 +15,6 @@ public class Login {
     }
 
     public boolean validateCredentials(String password, String username) throws NoSuchAlgorithmException, SQLException {
-        if(hashPassword.hasher(password).equals(readDatabase.userdatareader(username))){
-            return true;
-        } else {
-            return false;
-        }
+        return hashPassword.hasher(password).equals(readDatabase.userdatareader(username));
     }
 }

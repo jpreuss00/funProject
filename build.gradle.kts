@@ -31,7 +31,6 @@ dependencies {
     implementation("org.eclipse.jetty:jetty-util-ajax:9.4.27.v20200227")
     implementation("org.json:json:20190722")
     implementation("org.eclipse.jetty:jetty-server:9.4.26.v20200117")
-
 }
 
 application {

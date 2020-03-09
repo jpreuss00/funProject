@@ -71,7 +71,8 @@ public class Jetty {
                     insertCredentials.insertInDB(username, password);
                 } catch (NoSuchAlgorithmException | SQLException e) {
                     e.printStackTrace();
-                }
+                };
+                response.getWriter().println("register");
                 baseRequest.setHandled(true);
                 System.out.println("register Page is running...");
             }
@@ -85,7 +86,6 @@ public class Jetty {
                 if(request.getParameter("password") != null){
                     password = request.getParameter("password");
                 }
-                System.out.println(username);
                 if(request.getParameter("username") != null){
                     username = request.getParameter("username");
                 }
@@ -96,7 +96,7 @@ public class Jetty {
                     e.printStackTrace();
                 }
                 baseRequest.setHandled(true);
-                System.out.println("register Page is running...");
+                System.out.println("login Page is running...");
             }
         });
 

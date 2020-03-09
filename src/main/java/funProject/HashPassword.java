@@ -3,23 +3,18 @@ package funProject;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.*;
+import java.util.Arrays;
 
 public class HashPassword {
 
-    public byte[] hasher(String passwordToHash) throws NoSuchAlgorithmException {
-
-        System.out.println("Password before hash: " + passwordToHash);
-
-        SecureRandom random = new SecureRandom();
-        byte[] salt = new byte[16];
-        random.nextBytes(salt);
+    private final byte[] salt = new byte[]{
+            -123, 39, -113, 105, 28, 93, 73, -95, 58, -59, 106, -63, 116, 46, -110, -80
+    };
+    public String hasher(String passwordToHash) throws NoSuchAlgorithmException {
 
         MessageDigest md = MessageDigest.getInstance("SHA-512");
         md.update(salt);
 
-        byte[] passwordAfterHash = md.digest(passwordToHash.getBytes(StandardCharsets.UTF_8));
-        System.out.println("Password after hash: " + passwordAfterHash);
-
-        return passwordAfterHash;
+        return Arrays.toString(md.digest(passwordToHash.getBytes(StandardCharsets.UTF_8)));
     }
 }

@@ -16,13 +16,12 @@ public class InsertCredentials {
 
     public void insertInDB(String username, String password) throws NoSuchAlgorithmException, SQLException {
 
-        byte[] hashedPassword = hashPassword.hasher(password);
-        String hashesPasswordAsString = new String(hashedPassword, StandardCharsets.UTF_8);
+        String hashedPassword = hashPassword.hasher(password);
 
         PreparedStatement preparedStatement = null;
         preparedStatement = connection.prepareStatement("INSERT INTO userdata(username, pwd)" + "VALUES (?, ?)");
         preparedStatement.setString(1, username);
-        preparedStatement.setString(2, hashesPasswordAsString);
+        preparedStatement.setString(2, hashedPassword);
         preparedStatement.executeUpdate();
     }
 }

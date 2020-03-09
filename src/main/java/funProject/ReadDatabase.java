@@ -13,22 +13,14 @@ public class ReadDatabase {
         this.connection = connection;
     }
 
-    public byte[] userdatareader(String username) throws SQLException {
+    public String userdatareader(String username) throws SQLException {
         PreparedStatement preparedStatement = null;
         preparedStatement = connection.prepareStatement("SELECT pwd FROM userdata WHERE username = ?");
         preparedStatement.setString(1, username);
         ResultSet result = preparedStatement.executeQuery();
 
-        String dbpwd = "";
+        result.next();
 
-        if(result.next()){
-            dbpwd = result.getString(1);
-        }
-
-        byte[] dbpwdInByte = dbpwd.getBytes();
-
-        System.out.println("Password from the database: " + dbpwdInByte);
-
-        return dbpwdInByte;
+        return result.getString(1);
     }
 }

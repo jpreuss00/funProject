@@ -9,19 +9,33 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/HashPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/HashPassword.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/InsertCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/InsertCredentials.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Jetty.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/PostgreSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/PostgreSQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/ReadDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/ReadDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/funProject/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/funProject/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/funProject.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/funProject.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/funProject.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/funProject.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/funProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/funProject.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/executeSlave.sh" beforeDir="false" afterPath="$PROJECT_DIR$/executeSlave.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/funProject/HashPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/HashPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/funProject/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/funProject/InsertCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/InsertCredentials.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/funProject/Jetty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/Jetty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/funProject/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/funProject/PostgreSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/PostgreSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/funProject/ReadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/ReadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/funProject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/funProject/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +52,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="funProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -49,6 +68,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,16 +93,67 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="funProject" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HashPasswordTest.hasher">
+    <configuration name="HashPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="funProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="funProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="funProject" />
+      <option name="MAIN_CLASS_NAME" value="funProject.HashPasswordTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashPasswordTest.hasher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="funProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="funProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="funProject" />
+      <option name="MAIN_CLASS_NAME" value="funProject.HashPasswordTest" />
+      <option name="METHOD_NAME" value="hasher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashPasswordTest.hasher" />
+        <item itemvalue="JUnit.HashPasswordTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -118,6 +189,26 @@
       <screen x="-626" y="-1440" width="2560" height="1440" />
     </state>
     <state x="504" y="-813" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583412515240" />
+    <state x="392" y="-966" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583743891327">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="392" y="-966" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583743891327" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1583753098906">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583753098906" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1583753098904">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.center/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583753098904" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1583753098903">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.left/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583753098903" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1583753098905">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.right/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583753098905" />
     <state x="142" y="-1139" key="SettingsEditor" timestamp="1583413411575">
       <screen x="-626" y="-1440" width="2560" height="1440" />
     </state>
@@ -126,13 +217,21 @@
       <screen x="-626" y="-1440" width="2560" height="1440" />
     </state>
     <state x="333" y="-888" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413561198" />
+    <state x="366" y="-819" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583747453869">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="366" y="-819" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583747453869" />
+    <state x="417" y="-986" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583747466013">
+      <screen x="-626" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="417" y="-986" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583747466013" />
     <state x="319" y="-374" key="run.anything.popup" timestamp="1583413420145">
       <screen x="-626" y="-1440" width="2560" height="1440" />
     </state>
     <state x="319" y="-374" key="run.anything.popup/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583413420145" />
-    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup" timestamp="1583422479367">
+    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup" timestamp="1583753009735">
       <screen x="-626" y="-1440" width="2560" height="1440" />
     </state>
-    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583422479367" />
+    <state x="319" y="-1109" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-626.-1440.2560.1440@-626.-1440.2560.1440" timestamp="1583753009735" />
   </component>
 </project>
