@@ -19,8 +19,9 @@ public class ReadDatabase {
         preparedStatement.setString(1, username);
         ResultSet result = preparedStatement.executeQuery();
 
-        result.next();
-
-        return result.getString(1);
+        if(result.next()){
+            return result.getString(1);
+        }
+        return "";
     }
 }

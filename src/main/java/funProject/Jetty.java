@@ -68,11 +68,10 @@ public class Jetty {
                 }
                 InsertCredentials insertCredentials = new InsertCredentials(connection, hashPassword);
                 try {
-                    insertCredentials.insertInDB(username, password);
+                    response.getWriter().println(insertCredentials.insertInDB(username, password));
                 } catch (NoSuchAlgorithmException | SQLException e) {
                     e.printStackTrace();
-                };
-                response.getWriter().println("register");
+                }
                 baseRequest.setHandled(true);
                 System.out.println("register Page is running...");
             }
